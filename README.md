@@ -30,16 +30,4 @@ Assignment of Points to Clusters:
 
 - Once the closest centroid is identified for a data point, the index of that data point is added to the corresponding cluster.
 - The _closest_centroid function calculates the Euclidean distance from a single data point to each centroid and returns the index of the centroid that is closest to that point.
-
-
-
-## Installation
-
-To run this project, you will need Python 3 and the following Python libraries installed:
-
-- NumPy library
-- Scikit-learn library
-
-To train the K-Means model , follow theses steps:
-    $ python3 main.py
     
